@@ -18,6 +18,7 @@
     "outDir": "dist",
     "paths": {
       "~theme": ["theme/index"],
+      "~components/*": ["components/*"]
     },
     "noEmit": true,
     "sourceMap": true,
