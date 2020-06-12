@@ -1,0 +1,16 @@
+.next
+node_modules
+.DS_Store
+npm-debug.log*
+yarn-error.log*
+build
+.vscode
+.idea
+src/mock
+local.json
+docker-images/
+.history
+node_modules_dev
+dist
+version.txt
+**/svg-components/**
