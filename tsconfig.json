@@ -1,0 +1,27 @@
+{
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "module": "esnext",
+    "baseUrl": ".",
+    "allowJs": true,
+    "downlevelIteration": true,
+    "outDir": "dist",
+    "paths": {
+      "~theme": ["theme/index"],
+    },
+    "noEmit": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "sourceRoot": "/"
+  }
+}
