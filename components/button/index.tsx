@@ -55,9 +55,11 @@ const Button = React.forwardRef<any, ButtonProps & React.ButtonHTMLAttributes<HT
             }
             .sizeDefault {
               padding: 11px 24px;
+              font-size: 14px;
             }
             .sizeLarge {
               padding: 12px 40px;
+              font-size: 16px;
             }
             .sizeMini {
               padding: 0px 8px;

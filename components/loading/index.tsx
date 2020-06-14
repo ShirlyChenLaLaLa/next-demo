@@ -14,7 +14,7 @@ const Loading = React.forwardRef<any, React.AllHTMLAttributes<HTMLDivElement>>(
             .loading-dots {
               display: inline-block;
               text-align: center;
-              height: 24px;
+              height: 14px;
               z-index: 5;
 
               .dot {
@@ -23,9 +23,9 @@ const Loading = React.forwardRef<any, React.AllHTMLAttributes<HTMLDivElement>>(
                 width: 4px;
                 height: 4px;
                 border-radius: 50%;
-                margin: 9px 2px;
+                margin: 2px;
                 opacity: 0;
-                background: ${theme.colors.white};
+                background: ${theme.colors.grey4c};
                 animation: showHideDot 2.5s ease-in-out infinite;
 
                 &.one {
