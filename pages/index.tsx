@@ -53,7 +53,6 @@ const Index: NextPage = () => {
         } else {
           setRequestError('Opps, something went wrong.');
         }
-        console.log(response);
       })
       .catch(error => {
         setLaunchLoading(false);
